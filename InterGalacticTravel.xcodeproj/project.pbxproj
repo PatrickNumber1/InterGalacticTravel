@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7334F861BF13538003B1CD7 /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7334F851BF13538003B1CD7 /* imageViewController.swift */; };
 		D7CC66641BEBF2BF00C1B9AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CC66631BEBF2BF00C1B9AC /* AppDelegate.swift */; };
 		D7CC66661BEBF2BF00C1B9AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CC66651BEBF2BF00C1B9AC /* ViewController.swift */; };
 		D7CC66691BEBF2BF00C1B9AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CC66671BEBF2BF00C1B9AC /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D7334F851BF13538003B1CD7 /* imageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
 		D7CC66601BEBF2BF00C1B9AC /* InterGalacticTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterGalacticTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CC66631BEBF2BF00C1B9AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7CC66651BEBF2BF00C1B9AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				D7CC66631BEBF2BF00C1B9AC /* AppDelegate.swift */,
 				D7CC66651BEBF2BF00C1B9AC /* ViewController.swift */,
 				D7CC66671BEBF2BF00C1B9AC /* Main.storyboard */,
+				D7334F851BF13538003B1CD7 /* imageViewController.swift */,
 				D7CC666A1BEBF2BF00C1B9AC /* Assets.xcassets */,
 				D7CC666C1BEBF2BF00C1B9AC /* LaunchScreen.storyboard */,
 				D7CC666F1BEBF2BF00C1B9AC /* Info.plist */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7334F861BF13538003B1CD7 /* imageViewController.swift in Sources */,
 				D7CC66661BEBF2BF00C1B9AC /* ViewController.swift in Sources */,
 				D7CC66641BEBF2BF00C1B9AC /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +488,7 @@
 				D7CC668A1BEBF2C000C1B9AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7CC668B1BEBF2C000C1B9AC /* Build configuration list for PBXNativeTarget "InterGalacticTravelTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				D7CC668D1BEBF2C000C1B9AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7CC668E1BEBF2C000C1B9AC /* Build configuration list for PBXNativeTarget "InterGalacticTravelUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				D7CC66901BEBF2C000C1B9AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

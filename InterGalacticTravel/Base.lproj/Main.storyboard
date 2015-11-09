@@ -24,6 +24,9 @@
                                     <constraint firstAttribute="height" constant="30" id="kRu-3X-d16"/>
                                 </constraints>
                                 <state key="normal" title="Visit Blue Star"/>
+                                <connections>
+                                    <segue destination="fMm-7F-Iwm" kind="show" id="jP2-vo-6zu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6g9-TP-Hdz">
                                 <rect key="frame" x="222" y="141" width="106" height="30"/>
@@ -32,6 +35,9 @@
                                     <constraint firstAttribute="width" constant="106" id="qGy-6C-CWR"/>
                                 </constraints>
                                 <state key="normal" title="Visit Red Dwarf"/>
+                                <connections>
+                                    <segue destination="fMm-7F-Iwm" kind="show" id="wJe-bR-7cQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -47,6 +53,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1272" y="347"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="s0H-eE-GS3">
+            <objects>
+                <viewController id="fMm-7F-Iwm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="80Y-ZT-8A6"/>
+                        <viewControllerLayoutGuide type="bottom" id="eCD-Ef-tN9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XYG-Wp-8ub" customClass="MKMapView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1VY-2F-lYl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1976" y="347"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hHB-ez-BGi">
@@ -67,4 +91,7 @@
             <point key="canvasLocation" x="500" y="347"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="wJe-bR-7cQ"/>
+    </inferredMetricsTieBreakers>
 </document>
